@@ -9,3 +9,7 @@ composer create-project topthink/think tpstock
 // 2
 composer require lupecode/php-trader-native
 ```
+# stock主表数据示例
+![image](https://user-images.githubusercontent.com/30286467/199390581-db32635b-0ddc-4146-b2cf-14f8e55bada0.png)
+# stock_daily表数据示例,每开市日及时更新即可
+![image](https://user-images.githubusercontent.com/30286467/199390802-bf44ea0e-0c09-499e-8123-14fd82be93d9.png)
