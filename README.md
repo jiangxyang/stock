@@ -1,6 +1,6 @@
 # 股票技术指标计算,仅供参考学习
 stock,stock calc,php stock,macd,rsi,boll,trix,roc,bias,dma,kdj,cci,wr,obv,psy,arbr,dmi
-# 基于 thinkphp 6.0.13LTS(也可以用别的框架或者原生,后续改写Factor.php文件引入即可) 和 PHP Trader类的函数
+#### 基于 thinkphp 6.0.13LTS(也可以用别的框架或者原生,后续改写Factor.php文件引入即可) 和 PHP Trader类的函数
 [thinkphp](https://github.com/top-think/framework)
 [phpTraderNative](https://github.com/LupeCode/phpTraderNative)
 ```
