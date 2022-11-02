@@ -1,4 +1,4 @@
-# stock
+# 技术指标计算,仅供参考学习
 stock,stock calc,php stock,macd,rsi,boll,trix,roc,bias,dma,kdj,cci,wr,obv,psy,arbr,dmi
 # 基于 thinkphp 6.0.13LTS 和 PHP Trader类的函数
 [thinkphp](https://github.com/top-think/framework)
