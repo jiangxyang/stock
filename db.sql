@@ -41,7 +41,7 @@ CREATE TABLE `iv_stock`  (
   PRIMARY KEY (`stock_id`) USING BTREE,
   UNIQUE INDEX `un_symbol`(`symbol`) USING BTREE,
   UNIQUE INDEX `unique_ts_code`(`ts_code`) USING BTREE
-) ENGINE = MyISAM AUTO_INCREMENT = 4987 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci COMMENT = '股票列表' ROW_FORMAT = Dynamic;
+) ENGINE = MyISAM AUTO_INCREMENT = 1 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci COMMENT = '股票列表' ROW_FORMAT = Dynamic;
 -- ----------------------------
 -- Table structure for iv_stock_daily
 -- ----------------------------
@@ -57,7 +57,7 @@ CREATE TABLE `iv_stock_daily`  (
   `close` decimal(20, 2) NULL DEFAULT NULL COMMENT '收盘价',
   `pre_close` decimal(20, 2) NULL DEFAULT NULL COMMENT '昨收价',
   `change` decimal(20, 2) NULL DEFAULT NULL COMMENT '涨跌额',
-  `pct_chg` decimal(20, 4) NULL DEFAULT NULL COMMENT '涨跌幅 （未复权,如果是复权请用通用行情接口 ）',
+  `pct_chg` decimal(20, 4) NULL DEFAULT NULL COMMENT '涨跌幅 （未复权）',
   `vol` decimal(20, 2) NULL DEFAULT NULL COMMENT '成交量 （手）',
   `amount` decimal(20, 4) NULL DEFAULT NULL COMMENT '成交额 （千元）',
   `create_time` int(11) UNSIGNED NULL DEFAULT NULL COMMENT '创建时间',
@@ -66,6 +66,6 @@ CREATE TABLE `iv_stock_daily`  (
   INDEX `normal_stock_id`(`stock_id`) USING BTREE,
   INDEX `normal_trade`(`trade_date`) USING BTREE,
   INDEX `normal_ts_code`(`ts_code`) USING BTREE
-) ENGINE = MyISAM AUTO_INCREMENT = 12553871 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci COMMENT = 'A股日线行情表' ROW_FORMAT = Fixed;
+) ENGINE = MyISAM AUTO_INCREMENT = 1 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci COMMENT = 'A股日线行情表' ROW_FORMAT = Fixed;
 
 SET FOREIGN_KEY_CHECKS = 1;
